@@ -1,0 +1,88 @@
+body{
+    background-color: white;
+    padding: 25px 50px 75px 50px;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.img{
+    width: 500px;
+    height: 750px;
+}
+.title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-decoration: underline;
+    color: #096cc9;
+}
+.img-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    color: #050505;
+}
+.heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35x;
+    text-decoration: underline;
+    color: #096cc9;
+    display: flex;
+    justify-content: center;
+}
+p, .facts{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 1.5;
+}
+#table{
+    border: 2px solid;
+    border-collapse: collapse;
+    width: 100%;
+}
+.thead{
+    background-color: black;
+    height: 25px;
+    color: white;
+    font-size: 45px;
+}
+.tr-body{
+    border: 1px solid;
+    text-align: center;
+    padding: 8px;
+}
+tr:nth-child(even) {background-color: #dad1d1;}
+td{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 1.5;
+}
+table, th, td {
+    border: 1px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
